@@ -307,9 +307,11 @@ MonoBehaviour:
   enableGrayscaleEffect: 0
   enableNightVisionEffect: 0
   enableBlurEffect: 0
+  enableVignetteEffect: 0
   grayscaleMaterial: {fileID: 2100000, guid: cd93b53cf6c5b8848b7bba12d27bf2d1, type: 2}
   nightVisionMaterial: {fileID: 0}
   blurMaterial: {fileID: 2100000, guid: 3370e98cda15ecd49b3b290ed3d7a5fb, type: 2}
+  vignetteMaterial: {fileID: 2100000, guid: 05304ffde0d26f64d80f93b88d0d328f, type: 2}
 --- !u!1 &1188068617
 GameObject:
   m_ObjectHideFlags: 0
