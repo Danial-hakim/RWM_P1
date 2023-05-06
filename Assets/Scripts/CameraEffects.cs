@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraEffects : MonoBehaviour
 {
     [SerializeField] bool enableGrayscaleEffect = false;
-    [SerializeField] bool enableNightVisionEffect = false;
+    [SerializeField] bool enableInvertColorEffect = false;
     [SerializeField] bool enableBlurEffect = false;
     [SerializeField] bool enableVignetteEffect = false;
 
@@ -49,7 +49,7 @@ public class CameraEffects : MonoBehaviour
         {
             Graphics.Blit(source, destination, grayscaleMaterial);
         }
-        else if(enableNightVisionEffect)
+        else if(enableInvertColorEffect)
         {
             Graphics.Blit(source, destination, nightVisionMaterial);
         }
