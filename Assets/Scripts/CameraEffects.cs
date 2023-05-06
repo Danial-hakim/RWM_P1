@@ -8,11 +8,13 @@ public class CameraEffects : MonoBehaviour
     [SerializeField] bool enableInvertColorEffect = false;
     [SerializeField] bool enableBlurEffect = false;
     [SerializeField] bool enableVignetteEffect = false;
+    [SerializeField] bool enableHightlightColorEffect = false;
 
     [SerializeField] Material grayscaleMaterial;
     [SerializeField] Material nightVisionMaterial;
     [SerializeField] Material blurMaterial;
     [SerializeField] Material vignetteMaterial;
+    [SerializeField] Material highLightMaterial;
 
     private float blurVal = 1;
     // Start is called before the first frame update
@@ -60,6 +62,10 @@ public class CameraEffects : MonoBehaviour
         else if (enableVignetteEffect)
         {
             Graphics.Blit(source, destination, vignetteMaterial);
+        }
+        else if (enableHightlightColorEffect)
+        {
+            Graphics.Blit(source, destination, highLightMaterial);
         }
         else
         {
