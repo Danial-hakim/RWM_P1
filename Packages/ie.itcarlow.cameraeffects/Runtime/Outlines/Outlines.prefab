@@ -177,7 +177,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9140536153104441173}
-  - component: {fileID: 5766988294881020809}
+  - component: {fileID: 1350985085360552937}
   m_Layer: 10
   m_Name: Top
   m_TagString: Untagged
@@ -203,7 +203,7 @@ Transform:
   m_Father: {fileID: 7137679077016041919}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5766988294881020809
+--- !u!114 &1350985085360552937
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -212,7 +212,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3879473448151090682}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e181d5cb63b3684abde6f164bad2a01, type: 3}
+  m_Script: {fileID: 11500000, guid: ef1b7e5a27399ec4f9ffe9dfb5aa0284, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4426073632339102863
@@ -308,7 +308,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4625993639347342615}
-  - component: {fileID: 8440803084274358875}
+  - component: {fileID: 52015507980497441}
   m_Layer: 10
   m_Name: Bottom
   m_TagString: Untagged
@@ -334,7 +334,7 @@ Transform:
   m_Father: {fileID: 7137679077016041919}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8440803084274358875
+--- !u!114 &52015507980497441
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -343,7 +343,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5839087593253420329}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e181d5cb63b3684abde6f164bad2a01, type: 3}
+  m_Script: {fileID: 11500000, guid: ef1b7e5a27399ec4f9ffe9dfb5aa0284, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6010596614710344917
@@ -523,7 +523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7137679077016041919}
-  - component: {fileID: -6073957039475646968}
+  - component: {fileID: 7920543369759930164}
   m_Layer: 10
   m_Name: Outlines
   m_TagString: Untagged
@@ -548,7 +548,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-6073957039475646968
+--- !u!114 &7920543369759930164
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -557,7 +557,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7137679077016041888}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5a4c29a9d8a8c64988afb56e4e50d4c, type: 3}
+  m_Script: {fileID: 11500000, guid: 1eb35cc2f493ab34586f53cadbb084af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 0}
