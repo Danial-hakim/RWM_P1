@@ -1,0 +1,7 @@
+{
+  "name": "ie.itcarlow.cameraeffects",
+  "version": "0.1.0",
+  "displayName": "CameraEffects",
+  "description": "Effects on the camera appear when an event occur",
+  "unity": "2021.3"
+}
