@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class CameraEffects : MonoBehaviour
 {
-    [SerializeField] bool enableGrayscaleEffect = false;
-    [SerializeField] bool enableInvertColorEffect = false;
-    [SerializeField] bool enableBlurEffect = false;
-    [SerializeField] bool enableVignetteEffect = false;
-    [SerializeField] bool enableHightlightColorEffect = false;
+    public bool enableGrayscaleEffect = false;
+    public bool enableInvertColorEffect = false;
+    public bool enableBlurEffect = false;
+    public bool enableVignetteEffect = false;
+    public bool enableHightlightColorEffect = false;
 
     [SerializeField] Material grayscaleMaterial;
     [SerializeField] Material nightVisionMaterial;

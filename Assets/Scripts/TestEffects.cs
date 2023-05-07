@@ -5,6 +5,7 @@ using UnityEngine;
 public class TestEffects : MonoBehaviour
 {
     [SerializeField] private GameObject outlines;
+    [SerializeField] private CameraEffects effects;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,5 +24,10 @@ public class TestEffects : MonoBehaviour
     void SpawnOutlines()
     {
         GameObject tempOutline = Instantiate(outlines, gameObject.transform);
+    }
+
+    void enableBlur()
+    {
+        effects.enableBlurEffect = true;
     }
 }
